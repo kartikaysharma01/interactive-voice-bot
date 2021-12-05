@@ -1,0 +1,10 @@
+version: "2.0"
+nlu:
+  - lookup: order_status
+    examples: |
+      - Cancelled
+      - Confirmed
+      - Out for Delivery
+      - Delivered
+      - Dispatched
+      - order status
